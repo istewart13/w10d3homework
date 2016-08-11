@@ -1,0 +1,8 @@
+The factory pattern is one of the most commonly used design patterns and is used to create objects centrally, without having to call a constructor and specify what class of object is required. A factory method is instead used to create objects - it just needs to be asked for a new object and told what type of object his needs to be.
+
+To implement it you need to:
+
+- Create an interface
+- Create concrete classes implementing that interface
+- Create a Factory to generate objects of a concrete class based on the given information
+- Use the Factory to get objects of a concrete class by passing in information such as type
